@@ -1,0 +1,57 @@
+.home-container {
+  height: 100vh;
+}
+
+
+.text-container {
+  display: block;
+  margin: 6rem auto;
+  text-align: center;
+}
+
+.name {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 6rem;
+  color: #e0dfdc;
+  letter-spacing: 0.1em;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a,
+    0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222,
+    0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a,
+    0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212,
+    0 22px 30px rgba(0, 0, 0, 0.9);
+  text-transform: uppercase;
+}
+.text {
+  font-family: "Roboto", sans-serif;
+
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: normal;
+  display: flex;
+  margin: 1.1rem auto;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.9rem;
+}
+
+.button {
+  width: 15rem;
+  height: 4rem;
+  background-color: #000000;
+  background-image: linear-gradient(45deg, #000000 0%, #373737 100%);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 10px 5px rgba(0, 0, 0, 0.53);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 10px 5px rgba(0, 0, 0, 0.53);
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.button:hover {
+  opacity: 1;
+  height: 4.5rem;
+  width: 15.6rem;
+}

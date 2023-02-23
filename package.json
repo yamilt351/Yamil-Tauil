@@ -1,0 +1,25 @@
+{
+  "name": "portfolio2023",
+  "homepage": "https://yamilt351.github.io/ Yamil-Tauil",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-scripts": "0.9.5",
+    "styled-components": "^5.3.6"
+  },
+  "scripts": {
+	"predeploy":"npm run build",
+	"deploy":"gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "s": "^1.0.0"
+  }
+}

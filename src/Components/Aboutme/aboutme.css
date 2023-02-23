@@ -1,0 +1,45 @@
+.title-about {
+  font-size: 3rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.text-about {
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin: 2rem;
+}
+
+.img-about {
+  display: none;
+}
+@media screen and (min-width: 800px) {
+  .about-section {
+    column-count: 2;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-gap: 15px;
+    -webkit-column-gap: 15px;
+    -moz-column-gap: 15px;
+  }
+
+  .title-about {
+    font-size: 3rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .text-about {
+    font-size: 1.9rem;
+  }
+
+  .img-about {
+    border-radius: 100px;
+    margin: 0;
+    display: block;
+    padding: 1rem;
+    width: 90%;
+  }
+}
