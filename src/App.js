@@ -6,15 +6,14 @@ import Skills from "./Components/Skills/skills.jsx";
 import Projects from "./Components/proyecto/proyecto.js";
 import About from "./Components/Aboutme/aboutme.js";
 
-
 function App() {
   return (
     <div>
       <Navbar />
       <Home />
-	  <Projects/>
-	  <Skills/>
-	  <About/>
+      <Projects />
+      <Skills />
+      <About />
       <Footer />
     </div>
   );

@@ -1,9 +1,10 @@
 import React from "react";
 import {
-  MdAnalytics,
   MdAssignment,
   MdAutorenew,
+  MdComputer,
   MdKeyboardArrowRight,
+  MdLaptopChromebook,
 } from "react-icons/md";
 import {
   FaReact,
@@ -12,6 +13,8 @@ import {
   FaNodeJs,
   FaJs,
   FaJsSquare,
+  FaGitAlt,
+  FaClock,
 } from "react-icons/fa";
 import { TbTool, TbNotebook } from "react-icons/tb";
 import { BsFillBootstrapFill } from "react-icons/bs";
@@ -65,68 +68,82 @@ const data = [
       {
         icon: <MdKeyboardArrowRight />,
         name: "Nodejs",
-        id: 1,
+        id: 7,
         skillIcon: <FaNodeJs />,
       },
       {
         icon: <MdKeyboardArrowRight />,
         name: "Javascript",
-        id: 2,
+        id: 8,
         skillIcon: <FaJs />,
       },
       {
         icon: <MdKeyboardArrowRight />,
         name: "Express",
-        id: 3,
+        id: 9,
         skillIcon: <FaJsSquare />,
       },
-      {
-        icon: <MdKeyboardArrowRight />,
-        name: "MySQL",
-        id: 4,
-        skillIcon: <MdAnalytics />,
-      },
+
       {
         icon: <MdKeyboardArrowRight />,
         name: "Mongo",
-        id: 5,
+        id: 10,
         skillIcon: <MdAssignment />,
       },
       {
         icon: <MdKeyboardArrowRight />,
         name: "Sequelize",
-        id: 6,
+        id: 11,
         skillIcon: <MdAutorenew />,
+      },
+      {
+        icon: <MdKeyboardArrowRight />,
+        name: "Docker",
+        id: 12,
+        skillIcon: <MdLaptopChromebook />,
       },
     ],
     id: 2,
   },
   {
-    Skill: "Testing and Documentation",
+    Skill: "Others",
     Tools: [
       {
         icon: <MdKeyboardArrowRight />,
         name: "Jest",
-        id: 1,
+        id: 12,
         skillIcon: <TbTool />,
       },
-      {
-        icon: <MdKeyboardArrowRight />,
-        name: "Cypress",
-        id: 2,
-        skillIcon: <TbTool />,
-      },
+
       {
         icon: <MdKeyboardArrowRight />,
         name: "Swagger",
-        id: 3,
+        id: 13,
         skillIcon: <TbNotebook />,
       },
       {
         icon: <MdKeyboardArrowRight />,
         name: "Supertest",
-        id: 4,
+        id: 14,
         skillIcon: <TbTool />,
+      },
+      {
+        icon: <MdKeyboardArrowRight />,
+        name: "Linux Terminal",
+        id: 15,
+        skillIcon: <MdComputer />,
+      },
+      {
+        icon: <MdKeyboardArrowRight />,
+        name: "Git workflow",
+        id: 16,
+        skillIcon: <FaGitAlt />,
+      },
+      {
+        icon: <MdKeyboardArrowRight />,
+        name: "Agile and Scrum",
+        id: 17,
+        skillIcon: <FaClock />,
       },
     ],
     id: 3,

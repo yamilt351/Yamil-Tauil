@@ -1,6 +1,6 @@
 {
   "name": "portfolio2023",
-  "homepage": "https://yamilt351.github.io/ Yamil-Tauil",
+  "homepage": "https://yamilt351.github.io/Yamil-Tauil",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,8 +11,8 @@
     "styled-components": "^5.3.6"
   },
   "scripts": {
-	"predeploy":"npm run build",
-	"deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

@@ -7,9 +7,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-header">
-        <a href="#Home">
-          <img src="" alt="Yamil-Tauil-Logo" className="logo" />
-        </a>
+     
         <button onClick={() => setShowLinks(!showLinks)} className="nav-toggle">
           <MdMenu />
         </button>

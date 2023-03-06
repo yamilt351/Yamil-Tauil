@@ -9,6 +9,15 @@
   text-align: center;
   justify-content: center;
 }
+  .tech-container{
+	   column-count: 2;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-gap: 15px;
+    -webkit-column-gap: 15px;
+    -moz-column-gap: 15px;
+
+  }
 
 .container-link {
   padding: 1rem;
@@ -76,7 +85,8 @@
     align-items: center;
     margin: auto;
     width: 80%;
-    height: auto;
+    height: 12rem;
+		filter: grayscale(100%);
   }
   .buttons {
     display: block;
@@ -91,14 +101,4 @@
     text-align: center;
     align-items: center;
   }
-   .tech-container{
-	   column-count: 2;
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-gap: 15px;
-    -webkit-column-gap: 15px;
-    -moz-column-gap: 15px;
-
-  }
-
 }

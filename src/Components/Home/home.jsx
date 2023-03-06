@@ -8,7 +8,7 @@ function Home() {
         <p className="text">
           Im Javascript Backend Developer. I use: Nodejs, Express, Javascript,
           Mongo, JWT, Jest,Swagger, HTML, CSS, React. And im learning MySQL,
-          Docker, and Typescript
+          Docker.
         </p>
         <div className="resume">
           <a href="https://github.com/yamilt351">

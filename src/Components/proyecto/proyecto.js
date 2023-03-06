@@ -24,7 +24,9 @@ function Projects() {
             <div className="container-link" key={id}>
               <h2 className="subtitle-project">{name}</h2>
               <p>Deployed:{Deploy}</p>
+							<a href={url}>
               <img src={img} className="project-image" alt={alt}></img>
+							</a>
               <div className="buttons">
                 <button className="git-button">
                   <a href={Documentation}>{<FaGithub />} Check the Code</a>
